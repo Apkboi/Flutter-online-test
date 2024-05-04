@@ -22,7 +22,7 @@ class _HomeAppBarState extends State<HomeAppBar> {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          19.verticalSpace,
+          69.verticalSpace,
           Row(
             children: [
               const CircleAvatar(

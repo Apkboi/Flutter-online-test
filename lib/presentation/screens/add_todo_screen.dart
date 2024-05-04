@@ -102,7 +102,7 @@ class _AddTodoScreenState extends State<AddTodoScreen> {
                               style: BorderStyle.solid)),
                       border: OutlineInputBorder(
                           borderRadius: BorderRadius.circular(9.r),
-                          borderSide: BorderSide(
+                          borderSide: const BorderSide(
                               color: Pallets.borderGrey,
                               width: 2,
                               style: BorderStyle.solid))),

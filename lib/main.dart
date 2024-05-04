@@ -16,7 +16,6 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return ScreenUtilInit(
       designSize: const Size(414, 944),
-
       useInheritedMediaQuery: true,
       minTextAdapt: true,
       child: BlocProvider(

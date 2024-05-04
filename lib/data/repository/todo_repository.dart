@@ -8,9 +8,7 @@ class TodosRepositoryImpl implements TodosRepository {
 
   @override
   Future<List<Todo>> loadTodos() async {
-    // No asynchronous operations needed as data is in memory
-    return _todos
-        .toList(); // Return a copy to avoid modifying the internal list
+    return _todos.toList();
   }
 
   @override
